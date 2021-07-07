@@ -4,9 +4,19 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
 # Other files and folders
 .settings/
 .nova/
+node_modules/
+.next/
 
 # Executables
 *.swf
